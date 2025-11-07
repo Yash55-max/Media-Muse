@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nextn": "file:studio-main"
+  }
+}
