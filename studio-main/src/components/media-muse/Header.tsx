@@ -1,5 +1,6 @@
 import { Music4 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { InstallButton } from "@/components/InstallButton";
 
 export function Header() {
   return (
@@ -9,8 +10,11 @@ export function Header() {
           <Music4 className="text-primary h-8 w-8" />
           <h1 className="text-2xl font-bold text-foreground">Media Muse</h1>
         </div>
-        <ThemeToggle />
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+        </div>
       </div>
+      <InstallButton />
     </header>
   );
 }

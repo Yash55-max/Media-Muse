@@ -16,10 +16,15 @@ export async function getCaption(
 }
 
 export async function getMusicSuggestion(
-  photoDataUri: string
+  photoDataUri: string,
+  location?: string
 ): Promise<{ songTitle: string; spotifyUrl: string } | { error: string }> {
   try {
-    const result = await suggestBackgroundMusic({ photoDataUri });
+    const result = await suggestBackgroundMusic({
+      photoDataUri,
+      timestamp: Date.now(), // Add timestamp to ensure varied recommendations
+      location, // Pass user location for region-specific recommendations
+    });
     return { songTitle: result.songTitle, spotifyUrl: result.spotifyUrl };
   } catch (e) {
     console.error(e);
