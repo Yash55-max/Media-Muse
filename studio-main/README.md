@@ -1,6 +1,6 @@
 # Media Muse
 
-This is a Next.js application built with Firebase Studio that uses generative AI to create captions and suggest music for your images.
+This is a Next.js application  that uses generative AI to create captions and suggest music for your images.
 
 ## Getting Started
 
