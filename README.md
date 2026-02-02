@@ -49,10 +49,11 @@ Media Muse is an **AI-driven music recommendation web application** that deliver
 * **PWA:** Service Workers, Web App Manifest
 
 ---
-##Screenshots
+## Screenshots
+
 <img width="1916" height="1039" alt="image" src="https://github.com/user-attachments/assets/4549584e-56ae-456e-92dc-3f7f925b7d24" />
 
-
+---
 ## 📂 Project Structure
 
 ```
